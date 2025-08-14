@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocking Store - Clothing Poster</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #4b2e83; /* Deep purple */
+      color: #f5f5dc; /* Beige */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #dcd6f7;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .icons-top,
+    .icons-bottom {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+    }
+
+    .icon {
+      background-color: #dcd6f7;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #4b2e83;
+    }
+
+    .phone {
+      background-color: #f5f5dc;
+      border-radius: 20px;
+      width: 300px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .awning {
+      background: repeating-linear-gradient(
+        90deg,
+        #dcd6f7,
+        #dcd6f7 20px,
+        #f5f5dc 20px,
+        #f5f5dc 40px
+      );
+      height: 40px;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .product {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .product-icon {
+      font-size: 2rem;
+      color: #4b2e83;
+    }
+
+    .details {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .cart-button {
+      background-color: orange;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .shop-now {
+      background-color: orange;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>ROCKING STORE</h1>
+  <p class="tagline">Shop the latest styles online</p>
+
+  <div class="icons-top">
+    <div class="icon">🎸</div>
+    <div class="icon">💿</div>
+  </div>
+
+  <div class="phone">
+    <div class="awning"></div>
+    <div class="product">
+      <div class="product-icon">👕</div>
+    </div>
+    <div class="details">
+      <p>Stylish T-Shirt</p>
+      <p>100% Cotton · ₹499</p>
+    </div>
+    <button class="cart-button">🛒 Add to Cart</button>
+  </div>
+
+  <div class="icons-bottom">
+    <div class="icon">⭐</div>
+    <div class="icon">🚚</div>
+  </div>
+
+  <a href="#" class="shop-now">SHOP NOW</a>
+</body>
+</html>
