@@ -1,2 +1,0 @@
-name:lokesh babu
-course:bca
